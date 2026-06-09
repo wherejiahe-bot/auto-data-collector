@@ -22,7 +22,6 @@ jobs:
       - name: 抓取
         run: python scripts/scrape.py
         working-directory: ./sources/military-news
-        working-directory: ./sources/military-news
       - name: 提交 & 推送
         run: |
           git config user.name "wherejiahe-bot"
