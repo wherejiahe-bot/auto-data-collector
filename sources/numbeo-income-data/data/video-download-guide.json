@@ -1,0 +1,107 @@
+{
+  "source": "视频下载工具与平台综合指南",
+  "description": "视频下载工具与平台指南。涵盖主流视频平台（YouTube、B站、抖音、快手、小红书等）的视频下载方法、推荐工具列表及其功能对比。",
+  "platforms": [
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com",
+      "download_methods": [
+        {"tool": "yt-dlp（命令行）", "method": "yt-dlp <视频URL>", "platforms": "Windows/Mac/Linux", "quality": "最高8K"},
+        {"tool": "在线网站", "method": "y2mate.com / yt1s.com 等在线下载网站", "platforms": "所有平台（浏览器）", "quality": "最高1080P"},
+        {"tool": "4K Video Downloader", "method": "桌面应用，支持播放列表批量下载", "platforms": "Windows/Mac/Linux", "quality": "最高8K"}
+      ],
+      "note": "YouTube视频下载需注意版权限制"
+    },
+    {
+      "name": "B站（哔哩哔哩）",
+      "url": "https://www.bilibili.com",
+      "download_methods": [
+        {"tool": "B站官方APP", "method": "APP内缓存功能（仅限离线观看）", "platforms": "iOS/Android", "quality": "最高1080P"},
+        {"tool": "BBDown", "method": "开源命令行工具，支持B站视频下载", "platforms": "Windows/Mac/Linux", "quality": "最高4K HDR"},
+        {"tool": "唧唧Down", "method": "B站专用图形化下载工具", "platforms": "Windows", "quality": "最高1080P"},
+        {"tool": "yt-dlp", "method": "yt-dlp <B站视频URL>", "platforms": "Windows/Mac/Linux", "quality": "最高4K"}
+      ],
+      "note": "B站大会员视频需登录才能下载高清版本"
+    },
+    {
+      "name": "抖音",
+      "url": "https://www.douyin.com",
+      "download_methods": [
+        {"tool": "抖音APP", "method": "APP内直接保存（部分视频有水印）", "platforms": "iOS/Android", "quality": "原画"},
+        {"tool": "去水印在线工具", "method": "复制链接→去水印网站→下载", "platforms": "所有平台（浏览器）", "quality": "原画无水印"},
+        {"tool": "yt-dlp", "method": "yt-dlp <抖音分享链接>", "platforms": "Windows/Mac/Linux", "quality": "原画无水印"}
+      ],
+      "note": "抖音视频去水印需使用第三方工具"
+    },
+    {
+      "name": "快手",
+      "url": "https://www.kuaishou.com",
+      "download_methods": [
+        {"tool": "快手APP", "method": "APP内直接保存", "platforms": "iOS/Android", "quality": "原画"},
+        {"tool": "yt-dlp", "method": "yt-dlp <快手分享链接>", "platforms": "Windows/Mac/Linux", "quality": "原画无水印"}
+      ],
+      "note": "部分快手视频下载后自带水印"
+    },
+    {
+      "name": "小红书",
+      "url": "https://www.xiaohongshu.com",
+      "download_methods": [
+        {"tool": "小红书APP", "method": "APP内保存（部分有水印）", "platforms": "iOS/Android", "quality": "原画"},
+        {"tool": "在线解析工具", "method": "使用第三方解析网站提取无水印链接", "platforms": "所有平台（浏览器）", "quality": "原画无水印"}
+      ],
+      "note": "小红书视频可直接在APP内保存"
+    },
+    {
+      "name": "Twitter/X",
+      "url": "https://twitter.com",
+      "download_methods": [
+        {"tool": "yt-dlp", "method": "yt-dlp <推文URL>", "platforms": "Windows/Mac/Linux", "quality": "原画"},
+        {"tool": "在线工具", "method": "savetweetvid.com 等在线工具", "platforms": "所有平台（浏览器）", "quality": "原画"}
+      ],
+      "note": "Twitter视频可通过更改URL中的twitter为twittervid下载"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com",
+      "download_methods": [
+        {"tool": "yt-dlp", "method": "yt-dlp <Instagram帖子/ReelsURL>", "platforms": "Windows/Mac/Linux", "quality": "原画"},
+        {"tool": "在线工具", "method": "savefrom.net 等在线工具", "platforms": "所有平台（浏览器）", "quality": "原画"}
+      ],
+      "note": "Instagram需注意隐私账号的视频无法下载"
+    }
+  ],
+  "recommended_tools": [
+    {
+      "name": "yt-dlp",
+      "type": "命令行工具",
+      "description": "最强大的开源视频下载器，支持1000+网站。可下载视频、音频、字幕，支持批量下载和格式选择。",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "install": "pip install yt-dlp",
+      "usage_example": "yt-dlp -f bestvideo+bestaudio <视频URL>"
+    },
+    {
+      "name": "Downie（Mac）",
+      "type": "图形化工具（付费）",
+      "description": "Mac平台最佳视频下载工具，支持YouTube、B站等大量网站。简洁易用。",
+      "url": "https://software.charliemonroe.net/downie/"
+    },
+    {
+      "name": "4K Video Downloader",
+      "type": "图形化工具",
+      "description": "跨平台桌面应用，支持播放列表和字幕下载，免费版有限制。",
+      "url": "https://www.4kdownload.com/products/product-videodownloader"
+    },
+    {
+      "name": "IDM（Internet Download Manager）",
+      "type": "图形化工具（付费）",
+      "description": "Windows平台老牌下载工具，可捕获网页视频下载链接。",
+      "url": "https://www.internetdownloadmanager.com/"
+    }
+  ],
+  "usage_notes": [
+    "请遵守各平台的用户协议和版权法规",
+    "下载他人视频内容时请注意版权归属",
+    "本指南仅提供工具信息，不提供直接下载服务",
+    "建议使用yt-dlp作为首选工具，功能最全面"
+  ]
+}
