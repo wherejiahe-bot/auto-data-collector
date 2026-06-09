@@ -22,7 +22,6 @@ jobs:
       - name: 抓取 & 解析
         run: python scripts/scrape.py
         working-directory: ./sources/china-tt-news
-        working-directory: ./sources/china-tt-news
       - name: 提交 & 推送
         run: |
           git config user.name "wherejiahe-bot"
