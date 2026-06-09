@@ -1,0 +1,96 @@
+{
+  "source": "医学知识综合",
+  "description": "是否怀孕查询。根据症状描述、时间节点等信息，综合评估怀孕可能性。仅提供参考，不构成医学诊断。",
+  "disclaimer": "本查询结果仅供参考，不能替代专业医学诊断。建议使用验孕棒或到医院进行hCG检测确认。",
+  "symptoms": [
+    {
+      "symptom": "停经",
+      "weight": "极高",
+      "description": "月经推迟7天以上是怀孕最典型的信号",
+      "suggested_action": "如果月经推迟超过7天，建议进行验孕检测"
+    },
+    {
+      "symptom": "乳房胀痛/敏感",
+      "weight": "高",
+      "description": "怀孕初期激素变化导致乳房胀痛、乳晕颜色加深",
+      "suggested_action": "穿舒适的内衣，观察是否伴随其他症状"
+    },
+    {
+      "symptom": "恶心/呕吐（孕吐）",
+      "weight": "高",
+      "description": "约70-80%的孕妇会出现孕吐，多发生在怀孕6周后",
+      "suggested_action": "少食多餐，避免空腹，可尝试含姜食物缓解"
+    },
+    {
+      "symptom": "疲劳嗜睡",
+      "weight": "中高",
+      "description": "怀孕初期黄体酮升高导致极度疲劳感",
+      "suggested_action": "保证充足休息，避免过度劳累"
+    },
+    {
+      "symptom": "尿频",
+      "weight": "中",
+      "description": "子宫扩张压迫膀胱导致排尿次数增加",
+      "suggested_action": "正常现象，不要减少饮水"
+    },
+    {
+      "symptom": "基础体温持续升高",
+      "weight": "高",
+      "description": "排卵后基础体温持续升高超过18天以上",
+      "suggested_action": "持续测量基础体温，绘制体温曲线"
+    },
+    {
+      "symptom": "口味变化/食欲改变",
+      "weight": "中",
+      "description": "对某些食物特别渴望或厌恶，嗅觉变得敏感",
+      "suggested_action": "注意饮食均衡，避免生冷食物"
+    },
+    {
+      "symptom": "情绪波动",
+      "weight": "中",
+      "description": "激素波动导致情绪不稳定、易怒或易哭",
+      "suggested_action": "保持心情愉快，适当运动"
+    },
+    {
+      "symptom": "轻微腹痛/痉挛",
+      "weight": "中",
+      "description": "受精卵着床时可能出现轻微腹痛或少量出血（着床出血）",
+      "suggested_action": "如疼痛剧烈或持续出血，请立即就医"
+    },
+    {
+      "symptom": "头晕/低血压",
+      "weight": "中低",
+      "description": "怀孕导致血管扩张和血压下降",
+      "suggested_action": "避免长时间站立，缓慢改变姿势"
+    }
+  ],
+  "probability_assessment": {
+    "high_probability_indicators": [
+      "1. 月经推迟超过7天 + 验孕棒阳性",
+      "2. 月经推迟 + 乳房胀痛 + 恶心呕吐",
+      "3. 基础体温持续升高超过18天",
+      "4. 已确认排卵且有未保护性行为"
+    ],
+    "medium_probability_indicators": [
+      "1. 月经推迟3-5天，伴随疲劳或乳房胀痛",
+      "2. 有未保护性行为，处于排卵期",
+      "3. 出现多种早孕症状但未做检测"
+    ],
+    "low_probability_indicators": [
+      "1. 只有单一症状（如单纯疲劳）",
+      "2. 症状出现时间距性行为不足2周",
+      "3. 已采取有效避孕措施",
+      "4. 正在服用可能影响月经的药物"
+    ]
+  },
+  "suggested_actions": {
+    "first_step": "使用验孕棒（月经推迟7天后准确率99%）",
+    "second_step": "到医院进行血hCG检测（最准确，同房后10天可测）",
+    "third_step": "B超检查（怀孕5-6周后可确认宫内妊娠）"
+  },
+  "common_misconceptions": [
+    {"myth": "孕吐一定代表怀孕", "truth": "孕吐只是常见症状之一，部分孕妇完全没有孕吐"},
+    {"myth": "月经来了就不可能怀孕", "truth": "怀孕早期可能出现类似月经的出血，需注意区分"},
+    {"myth": "验孕棒可以同房后立即使用", "truth": "建议在月经推迟7天后使用，太早可能假阴性"}
+  ]
+}
