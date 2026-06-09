@@ -1,0 +1,92 @@
+{
+  "source": "Big Five Personality (大五人格)",
+  "description": "大五人格测试题目（Big Five Personality Test）。包含开放性、尽责性、外向性、宜人性、神经质五个维度各10题，共50题。每题按1-5分评分（非常不同意→非常同意）。",
+  "total_questions": 50,
+  "dimensions": [
+    {
+      "name": "开放性 (Openness)",
+      "description": "对新鲜事物的好奇心和接受程度",
+      "questions": [
+        {"id": "O1", "question": "我经常尝试新的活动或体验。", "direction": "positive"},
+        {"id": "O2", "question": "我对抽象概念和理论很感兴趣。", "direction": "positive"},
+        {"id": "O3", "question": "我偏爱常规而非变化。", "direction": "negative"},
+        {"id": "O4", "question": "我经常思考宇宙和生命的意义。", "direction": "positive"},
+        {"id": "O5", "question": "我更喜欢熟悉的环境而不是陌生的地方。", "direction": "negative"},
+        {"id": "O6", "question": "我对艺术、音乐和文学有浓厚兴趣。", "direction": "positive"},
+        {"id": "O7", "question": "我很少思考哲学性问题。", "direction": "negative"},
+        {"id": "O8", "question": "我喜欢尝试不同种类的食物。", "direction": "positive"},
+        {"id": "O9", "question": "我不太关注新颖的事物。", "direction": "negative"},
+        {"id": "O10", "question": "我经常反思自己的感受和想法。", "direction": "positive"}
+      ]
+    },
+    {
+      "name": "尽责性 (Conscientiousness)",
+      "description": "自律、责任感和目标导向",
+      "questions": [
+        {"id": "C1", "question": "我总是按时完成任务。", "direction": "positive"},
+        {"id": "C2", "question": "我喜欢把事情安排得井井有条。", "direction": "positive"},
+        {"id": "C3", "question": "我经常拖延重要的任务。", "direction": "negative"},
+        {"id": "C4", "question": "我会认真对待每一件事。", "direction": "positive"},
+        {"id": "C5", "question": "我很少制定详细的计划。", "direction": "negative"},
+        {"id": "C6", "question": "我对自己有较高的要求。", "direction": "positive"},
+        {"id": "C7", "question": "我经常忽略细节。", "direction": "negative"},
+        {"id": "C8", "question": "我做事情总是有始有终。", "direction": "positive"},
+        {"id": "C9", "question": "我比较随性，不太在意规划。", "direction": "negative"},
+        {"id": "C10", "question": "别人认为我是一个可靠的人。", "direction": "positive"}
+      ]
+    },
+    {
+      "name": "外向性 (Extraversion)",
+      "description": "社交活跃度和精力导向",
+      "questions": [
+        {"id": "E1", "question": "我很容易和陌生人打成一片。", "direction": "positive"},
+        {"id": "E2", "question": "我喜欢成为众人关注的焦点。", "direction": "positive"},
+        {"id": "E3", "question": "我更喜欢独处而不是社交。", "direction": "negative"},
+        {"id": "E4", "question": "我经常主动发起对话。", "direction": "positive"},
+        {"id": "E5", "question": "在聚会中我通常比较安静。", "direction": "negative"},
+        {"id": "E6", "question": "我精力充沛，喜欢忙碌。", "direction": "positive"},
+        {"id": "E7", "question": "我不太喜欢参加社交活动。", "direction": "negative"},
+        {"id": "E8", "question": "我乐于结识新朋友。", "direction": "positive"},
+        {"id": "E9", "question": "我很难在人群中放开自己。", "direction": "negative"},
+        {"id": "E10", "question": "和别人在一起时我感到充满能量。", "direction": "positive"}
+      ]
+    },
+    {
+      "name": "宜人性 (Agreeableness)",
+      "description": "合作倾向和人际温度",
+      "questions": [
+        {"id": "A1", "question": "我关心他人的感受。", "direction": "positive"},
+        {"id": "A2", "question": "我习惯先考虑别人再考虑自己。", "direction": "positive"},
+        {"id": "A3", "question": "我很少为别人的遭遇感到难过。", "direction": "negative"},
+        {"id": "A4", "question": "我信任大多数人的善意。", "direction": "positive"},
+        {"id": "A5", "question": "我倾向于与人竞争而非合作。", "direction": "negative"},
+        {"id": "A6", "question": "我乐于帮助有需要的人。", "direction": "positive"},
+        {"id": "A7", "question": "我经常与别人发生争执。", "direction": "negative"},
+        {"id": "A8", "question": "我能体谅他人的处境。", "direction": "positive"},
+        {"id": "A9", "question": "我对他人的需求不太敏感。", "direction": "negative"},
+        {"id": "A10", "question": "我喜欢与人和谐相处。", "direction": "positive"}
+      ]
+    },
+    {
+      "name": "神经质 (Neuroticism)",
+      "description": "情绪稳定性和抗压能力",
+      "questions": [
+        {"id": "N1", "question": "我经常感到焦虑。", "direction": "positive"},
+        {"id": "N2", "question": "我的情绪起伏很大。", "direction": "positive"},
+        {"id": "N3", "question": "面对压力时我通常能保持冷静。", "direction": "negative"},
+        {"id": "N4", "question": "我经常会担心不好的事情发生。", "direction": "positive"},
+        {"id": "N5", "question": "我不太容易感到沮丧。", "direction": "negative"},
+        {"id": "N6", "question": "我很容易感到紧张。", "direction": "positive"},
+        {"id": "N7", "question": "我很少被负面情绪困扰。", "direction": "negative"},
+        {"id": "N8", "question": "小事也容易让我烦恼。", "direction": "positive"},
+        {"id": "N9", "question": "我通常心情平稳。", "direction": "negative"},
+        {"id": "N10", "question": "我对批评和拒绝很敏感。", "direction": "positive"}
+      ]
+    }
+  ],
+  "scoring_instructions": {
+    "scale": "1=非常不同意  2=不同意  3=中立  4=同意  5=非常同意",
+    "reverse_score": "对于 direction 为 negative 的题目，计分需反转（1→5, 2→4, 3→3, 4→2, 5→1）",
+    "dimension_score": "每个维度满分50分（10题×5分），得分越高该特质越明显"
+  }
+}
