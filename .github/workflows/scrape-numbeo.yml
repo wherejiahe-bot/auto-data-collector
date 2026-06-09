@@ -1,0 +1,43 @@
+name: 抓取 Numbeo 各国平均月净工资
+
+on:
+  schedule:
+    # 每天 UTC 2:00 = 北京时间 10:00
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: 抓取 & 解析
+        run: python scripts/scrape.py
+        working-directory: ./sources/numbeo-income-data
+        working-directory: ./sources/numbeo-income-data
+
+      - name: 提交 & 推送
+        run: |
+          git config user.name "wherejiahe-bot"
+          git config user.email "wherejiahe-bot@users.noreply.github.com"
+
+          # 只在有变动时提交
+          if [ -n "$(git status --porcelain)" ]; then
+            git add sources/numbeo-income-data/data/
+            git commit -m "auto: 更新 Numbeo 月收入数据 $(date -u '+%Y-%m-%d')"
+            git push
+          else
+            echo "无变化，跳过提交"
+          fi
