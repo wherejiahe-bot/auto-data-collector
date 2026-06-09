@@ -1,0 +1,515 @@
+{
+  "source": "Numbeo",
+  "url": "https://www.numbeo.com/cost-of-living/country_price_rankings?itemId=105&displayCurrency=USD",
+  "description": "Average Monthly Net Salary (After Tax) by Country",
+  "unit": "USD",
+  "scraped_at": "2026-05-28T14:53:59Z",
+  "total_count": 101,
+  "data": [
+    {
+      "rank": 1,
+      "country": "Switzerland",
+      "monthly_net_salary_usd": 7601.08
+    },
+    {
+      "rank": 2,
+      "country": "Luxembourg",
+      "monthly_net_salary_usd": 5596.27
+    },
+    {
+      "rank": 3,
+      "country": "Singapore",
+      "monthly_net_salary_usd": 4371.03
+    },
+    {
+      "rank": 4,
+      "country": "United States",
+      "monthly_net_salary_usd": 4322.63
+    },
+    {
+      "rank": 5,
+      "country": "Denmark",
+      "monthly_net_salary_usd": 4259.17
+    },
+    {
+      "rank": 6,
+      "country": "Norway",
+      "monthly_net_salary_usd": 4190.57
+    },
+    {
+      "rank": 7,
+      "country": "Australia",
+      "monthly_net_salary_usd": 4061.04
+    },
+    {
+      "rank": 8,
+      "country": "Israel",
+      "monthly_net_salary_usd": 4036.51
+    },
+    {
+      "rank": 9,
+      "country": "Qatar",
+      "monthly_net_salary_usd": 3963.27
+    },
+    {
+      "rank": 10,
+      "country": "Netherlands",
+      "monthly_net_salary_usd": 3936.69
+    },
+    {
+      "rank": 11,
+      "country": "Ireland",
+      "monthly_net_salary_usd": 3562.86
+    },
+    {
+      "rank": 12,
+      "country": "Germany",
+      "monthly_net_salary_usd": 3443.76
+    },
+    {
+      "rank": 13,
+      "country": "United Kingdom",
+      "monthly_net_salary_usd": 3328.92
+    },
+    {
+      "rank": 14,
+      "country": "Sweden",
+      "monthly_net_salary_usd": 3289.55
+    },
+    {
+      "rank": 15,
+      "country": "Hong Kong (China)",
+      "monthly_net_salary_usd": 3204.89
+    },
+    {
+      "rank": 16,
+      "country": "Kuwait",
+      "monthly_net_salary_usd": 3150.4
+    },
+    {
+      "rank": 17,
+      "country": "Finland",
+      "monthly_net_salary_usd": 3064.71
+    },
+    {
+      "rank": 18,
+      "country": "United Arab Emirates",
+      "monthly_net_salary_usd": 3057.45
+    },
+    {
+      "rank": 19,
+      "country": "Belgium",
+      "monthly_net_salary_usd": 3052.85
+    },
+    {
+      "rank": 20,
+      "country": "Austria",
+      "monthly_net_salary_usd": 3023.93
+    },
+    {
+      "rank": 21,
+      "country": "Canada",
+      "monthly_net_salary_usd": 2998.52
+    },
+    {
+      "rank": 22,
+      "country": "New Zealand",
+      "monthly_net_salary_usd": 2978.53
+    },
+    {
+      "rank": 23,
+      "country": "France",
+      "monthly_net_salary_usd": 2855.21
+    },
+    {
+      "rank": 24,
+      "country": "Puerto Rico",
+      "monthly_net_salary_usd": 2693.29
+    },
+    {
+      "rank": 25,
+      "country": "Oman",
+      "monthly_net_salary_usd": 2418.54
+    },
+    {
+      "rank": 26,
+      "country": "Bahrain",
+      "monthly_net_salary_usd": 2292.14
+    },
+    {
+      "rank": 27,
+      "country": "South Korea",
+      "monthly_net_salary_usd": 2185.26
+    },
+    {
+      "rank": 28,
+      "country": "Spain",
+      "monthly_net_salary_usd": 2050.4
+    },
+    {
+      "rank": 29,
+      "country": "Saudi Arabia",
+      "monthly_net_salary_usd": 1990.06
+    },
+    {
+      "rank": 30,
+      "country": "Italy",
+      "monthly_net_salary_usd": 1959.88
+    },
+    {
+      "rank": 31,
+      "country": "Estonia",
+      "monthly_net_salary_usd": 1913.27
+    },
+    {
+      "rank": 32,
+      "country": "Japan",
+      "monthly_net_salary_usd": 1896.58
+    },
+    {
+      "rank": 33,
+      "country": "Cyprus",
+      "monthly_net_salary_usd": 1887.75
+    },
+    {
+      "rank": 34,
+      "country": "Malta",
+      "monthly_net_salary_usd": 1870.02
+    },
+    {
+      "rank": 35,
+      "country": "Czech Republic",
+      "monthly_net_salary_usd": 1818.7
+    },
+    {
+      "rank": 36,
+      "country": "Slovenia",
+      "monthly_net_salary_usd": 1750.85
+    },
+    {
+      "rank": 37,
+      "country": "Taiwan",
+      "monthly_net_salary_usd": 1735.17
+    },
+    {
+      "rank": 38,
+      "country": "Poland",
+      "monthly_net_salary_usd": 1728.31
+    },
+    {
+      "rank": 39,
+      "country": "Lithuania",
+      "monthly_net_salary_usd": 1610.23
+    },
+    {
+      "rank": 40,
+      "country": "Croatia",
+      "monthly_net_salary_usd": 1590.25
+    },
+    {
+      "rank": 41,
+      "country": "South Africa",
+      "monthly_net_salary_usd": 1484.02
+    },
+    {
+      "rank": 42,
+      "country": "Hungary",
+      "monthly_net_salary_usd": 1408.04
+    },
+    {
+      "rank": 43,
+      "country": "Slovakia",
+      "monthly_net_salary_usd": 1350.47
+    },
+    {
+      "rank": 44,
+      "country": "Latvia",
+      "monthly_net_salary_usd": 1349.88
+    },
+    {
+      "rank": 45,
+      "country": "Portugal",
+      "monthly_net_salary_usd": 1340.7
+    },
+    {
+      "rank": 46,
+      "country": "Greece",
+      "monthly_net_salary_usd": 1185.74
+    },
+    {
+      "rank": 47,
+      "country": "Bulgaria",
+      "monthly_net_salary_usd": 1171.54
+    },
+    {
+      "rank": 48,
+      "country": "Costa Rica",
+      "monthly_net_salary_usd": 1110.76
+    },
+    {
+      "rank": 49,
+      "country": "Uruguay",
+      "monthly_net_salary_usd": 1076.25
+    },
+    {
+      "rank": 50,
+      "country": "China",
+      "monthly_net_salary_usd": 1071.33
+    },
+    {
+      "rank": 51,
+      "country": "Romania",
+      "monthly_net_salary_usd": 1071.31
+    },
+    {
+      "rank": 52,
+      "country": "Turkey",
+      "monthly_net_salary_usd": 1063.06
+    },
+    {
+      "rank": 53,
+      "country": "Montenegro",
+      "monthly_net_salary_usd": 1053.8
+    },
+    {
+      "rank": 54,
+      "country": "Russia",
+      "monthly_net_salary_usd": 987.92
+    },
+    {
+      "rank": 55,
+      "country": "Serbia",
+      "monthly_net_salary_usd": 975.85
+    },
+    {
+      "rank": 56,
+      "country": "Malaysia",
+      "monthly_net_salary_usd": 938.27
+    },
+    {
+      "rank": 57,
+      "country": "Bosnia And Herzegovina",
+      "monthly_net_salary_usd": 856.29
+    },
+    {
+      "rank": 58,
+      "country": "Panama",
+      "monthly_net_salary_usd": 828.86
+    },
+    {
+      "rank": 59,
+      "country": "Mexico",
+      "monthly_net_salary_usd": 814.28
+    },
+    {
+      "rank": 60,
+      "country": "North Macedonia",
+      "monthly_net_salary_usd": 778.1
+    },
+    {
+      "rank": 61,
+      "country": "Belarus",
+      "monthly_net_salary_usd": 777.66
+    },
+    {
+      "rank": 62,
+      "country": "Moldova",
+      "monthly_net_salary_usd": 766.17
+    },
+    {
+      "rank": 63,
+      "country": "Albania",
+      "monthly_net_salary_usd": 740.72
+    },
+    {
+      "rank": 64,
+      "country": "Armenia",
+      "monthly_net_salary_usd": 740.5
+    },
+    {
+      "rank": 65,
+      "country": "Argentina",
+      "monthly_net_salary_usd": 735.37
+    },
+    {
+      "rank": 66,
+      "country": "Chile",
+      "monthly_net_salary_usd": 733.26
+    },
+    {
+      "rank": 67,
+      "country": "Mauritius",
+      "monthly_net_salary_usd": 729.02
+    },
+    {
+      "rank": 68,
+      "country": "Jordan",
+      "monthly_net_salary_usd": 723.94
+    },
+    {
+      "rank": 69,
+      "country": "Kazakhstan",
+      "monthly_net_salary_usd": 641.14
+    },
+    {
+      "rank": 70,
+      "country": "Dominican Republic",
+      "monthly_net_salary_usd": 613.97
+    },
+    {
+      "rank": 71,
+      "country": "Kosovo (Disputed Territory)",
+      "monthly_net_salary_usd": 613.96
+    },
+    {
+      "rank": 72,
+      "country": "Thailand",
+      "monthly_net_salary_usd": 613.03
+    },
+    {
+      "rank": 73,
+      "country": "Lebanon",
+      "monthly_net_salary_usd": 611.73
+    },
+    {
+      "rank": 74,
+      "country": "Peru",
+      "monthly_net_salary_usd": 577.45
+    },
+    {
+      "rank": 75,
+      "country": "Iraq",
+      "monthly_net_salary_usd": 573.28
+    },
+    {
+      "rank": 76,
+      "country": "Georgia",
+      "monthly_net_salary_usd": 562.36
+    },
+    {
+      "rank": 77,
+      "country": "Brazil",
+      "monthly_net_salary_usd": 531.0
+    },
+    {
+      "rank": 78,
+      "country": "Ecuador",
+      "monthly_net_salary_usd": 517.44
+    },
+    {
+      "rank": 79,
+      "country": "Uzbekistan",
+      "monthly_net_salary_usd": 508.89
+    },
+    {
+      "rank": 80,
+      "country": "Colombia",
+      "monthly_net_salary_usd": 504.13
+    },
+    {
+      "rank": 81,
+      "country": "Ukraine",
+      "monthly_net_salary_usd": 496.66
+    },
+    {
+      "rank": 82,
+      "country": "Morocco",
+      "monthly_net_salary_usd": 482.62
+    },
+    {
+      "rank": 83,
+      "country": "Bolivia",
+      "monthly_net_salary_usd": 444.98
+    },
+    {
+      "rank": 84,
+      "country": "Azerbaijan",
+      "monthly_net_salary_usd": 432.88
+    },
+    {
+      "rank": 85,
+      "country": "India",
+      "monthly_net_salary_usd": 427.89
+    },
+    {
+      "rank": 86,
+      "country": "Vietnam",
+      "monthly_net_salary_usd": 412.61
+    },
+    {
+      "rank": 87,
+      "country": "Kenya",
+      "monthly_net_salary_usd": 354.25
+    },
+    {
+      "rank": 88,
+      "country": "Zimbabwe",
+      "monthly_net_salary_usd": 339.47
+    },
+    {
+      "rank": 89,
+      "country": "Philippines",
+      "monthly_net_salary_usd": 329.2
+    },
+    {
+      "rank": 90,
+      "country": "Tunisia",
+      "monthly_net_salary_usd": 327.86
+    },
+    {
+      "rank": 91,
+      "country": "Algeria",
+      "monthly_net_salary_usd": 307.23
+    },
+    {
+      "rank": 92,
+      "country": "Indonesia",
+      "monthly_net_salary_usd": 266.35
+    },
+    {
+      "rank": 93,
+      "country": "Iran",
+      "monthly_net_salary_usd": 249.35
+    },
+    {
+      "rank": 94,
+      "country": "Bangladesh",
+      "monthly_net_salary_usd": 239.39
+    },
+    {
+      "rank": 95,
+      "country": "Venezuela",
+      "monthly_net_salary_usd": 211.38
+    },
+    {
+      "rank": 96,
+      "country": "Nepal",
+      "monthly_net_salary_usd": 210.51
+    },
+    {
+      "rank": 97,
+      "country": "Sri Lanka",
+      "monthly_net_salary_usd": 209.73
+    },
+    {
+      "rank": 98,
+      "country": "Pakistan",
+      "monthly_net_salary_usd": 181.93
+    },
+    {
+      "rank": 99,
+      "country": "Egypt",
+      "monthly_net_salary_usd": 143.01
+    },
+    {
+      "rank": 100,
+      "country": "Nigeria",
+      "monthly_net_salary_usd": 75.7
+    },
+    {
+      "rank": 101,
+      "country": "Cuba",
+      "monthly_net_salary_usd": 36.57
+    }
+  ]
+}
