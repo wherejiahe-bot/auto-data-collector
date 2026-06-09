@@ -1,0 +1,102 @@
+{
+  "title": "霍兰德职业兴趣测试",
+  "description": "霍兰德职业兴趣测试（Holland Code / RIASEC）标准版题目。共60题，涵盖六种职业兴趣类型（现实型R、研究型I、艺术型A、社会型S、企业型E、常规型C），每种类型10题。每题简述一项活动或偏好，回答"是"或"否"。",
+  "version": "1.0",
+  "source": "基于霍兰德职业兴趣理论（John L. Holland）标准题目改编",
+  "instructions": "请根据自身兴趣回答以下问题。每题描述一项活动，如果你喜欢或感兴趣请回答"是"，否则回答"否"。",
+  "categories": [
+    {
+      "code": "R",
+      "name": "现实型 Realistic",
+      "description": "喜欢动手操作、户外活动、机械修理等实际工作"
+    },
+    {
+      "code": "I",
+      "name": "研究型 Investigative",
+      "description": "喜欢思考、分析、探索未知、解决科学问题"
+    },
+    {
+      "code": "A",
+      "name": "艺术型 Artistic",
+      "description": "喜欢创作、表达、音乐、写作、设计等艺术活动"
+    },
+    {
+      "code": "S",
+      "name": "社会型 Social",
+      "description": "喜欢与人交往、帮助他人、教育、咨询等工作"
+    },
+    {
+      "code": "E",
+      "name": "企业型 Enterprising",
+      "description": "喜欢领导、说服、管理、销售、竞争等活动"
+    },
+    {
+      "code": "C",
+      "name": "常规型 Conventional",
+      "description": "喜欢有条理、按规则办事、数据处理、文书工作"
+    }
+  ],
+  "questions": [
+    {"id": 1, "category": "R", "question": "我喜欢修理自行车或机械装置"},
+    {"id": 2, "category": "R", "question": "我擅长使用锤子、螺丝刀等工具"},
+    {"id": 3, "category": "R", "question": "我喜欢做木工或手工制作"},
+    {"id": 4, "category": "R", "question": "我喜欢户外活动和体力劳动"},
+    {"id": 5, "category": "R", "question": "我对汽车、机械等感兴趣"},
+    {"id": 6, "category": "R", "question": "我喜欢植树、园艺等户外工作"},
+    {"id": 7, "category": "R", "question": "我擅长操作电脑硬件或仪器"},
+    {"id": 8, "category": "R", "question": "我喜欢组装模型或搭建结构"},
+    {"id": 9, "category": "R", "question": "我对建筑或工程施工感兴趣"},
+    {"id": 10, "category": "R", "question": "我喜欢动手解决实际问题"},
+    {"id": 11, "category": "I", "question": "我喜欢探索科学问题"},
+    {"id": 12, "category": "I", "question": "我经常思考事物的原理和规律"},
+    {"id": 13, "category": "I", "question": "我喜欢做实验和研究"},
+    {"id": 14, "category": "I", "question": "我对数学或统计分析感兴趣"},
+    {"id": 15, "category": "I", "question": "我喜欢阅读科学文章或学术论文"},
+    {"id": 16, "category": "I", "question": "我擅长分析数据和找出规律"},
+    {"id": 17, "category": "I", "question": "我喜欢学习新理论和概念"},
+    {"id": 18, "category": "I", "question": "我对天文、物理或生物等自然科学感兴趣"},
+    {"id": 19, "category": "I", "question": "我喜欢解决复杂的逻辑问题"},
+    {"id": 20, "category": "I", "question": "我经常好奇事物是如何运作的"},
+    {"id": 21, "category": "A", "question": "我喜欢绘画、雕塑或摄影等艺术创作"},
+    {"id": 22, "category": "A", "question": "我喜欢写作、写日记或创作故事"},
+    {"id": 23, "category": "A", "question": "我对音乐、唱歌或演奏乐器感兴趣"},
+    {"id": 24, "category": "A", "question": "我喜欢戏剧表演或舞台演出"},
+    {"id": 25, "category": "A", "question": "我擅长创意设计和视觉表达"},
+    {"id": 26, "category": "A", "question": "我喜欢参观美术馆或欣赏艺术"},
+    {"id": 27, "category": "A", "question": "我经常有丰富的想象力和创意"},
+    {"id": 28, "category": "A", "question": "我喜欢舞蹈或身体表达"},
+    {"id": 29, "category": "A", "question": "我对时尚或室内设计感兴趣"},
+    {"id": 30, "category": "A", "question": "我喜欢阅读小说或文学作品"},
+    {"id": 31, "category": "S", "question": "我喜欢帮助他人解决问题"},
+    {"id": 32, "category": "S", "question": "我擅长与人沟通和交流"},
+    {"id": 33, "category": "S", "question": "我喜欢教学或指导他人"},
+    {"id": 34, "category": "S", "question": "我对心理咨询或辅导感兴趣"},
+    {"id": 35, "category": "S", "question": "我乐于参加志愿者或社区服务"},
+    {"id": 36, "category": "S", "question": "我喜欢组织团队活动"},
+    {"id": 37, "category": "S", "question": "我善于倾听他人的烦恼"},
+    {"id": 38, "category": "S", "question": "我对社会工作或公益事业感兴趣"},
+    {"id": 39, "category": "S", "question": "我享受与不同人打交道的乐趣"},
+    {"id": 40, "category": "S", "question": "我喜欢照顾或帮助弱势群体"},
+    {"id": 41, "category": "E", "question": "我喜欢领导团队或做决策"},
+    {"id": 42, "category": "E", "question": "我对销售或商务谈判感兴趣"},
+    {"id": 43, "category": "E", "question": "我擅长说服别人接受我的观点"},
+    {"id": 44, "category": "E", "question": "我喜欢创业或开展新项目"},
+    {"id": 45, "category": "E", "question": "我对商业管理或市场营销感兴趣"},
+    {"id": 46, "category": "E", "question": "我喜欢参与竞争和挑战"},
+    {"id": 47, "category": "E", "question": "我擅长公开发言和演讲"},
+    {"id": 48, "category": "E", "question": "我对政治或公共事务感兴趣"},
+    {"id": 49, "category": "E", "question": "我喜欢制定计划和设定目标"},
+    {"id": 50, "category": "E", "question": "我善于激励和影响他人"},
+    {"id": 51, "category": "C", "question": "我喜欢整理数据和制作表格"},
+    {"id": 52, "category": "C", "question": "我做事有条理、注重细节"},
+    {"id": 53, "category": "C", "question": "我喜欢按规定的流程办事"},
+    {"id": 54, "category": "C", "question": "我对会计或财务管理感兴趣"},
+    {"id": 55, "category": "C", "question": "我喜欢归档文件和整理资料"},
+    {"id": 56, "category": "C", "question": "我擅长操作办公软件和文书处理"},
+    {"id": 57, "category": "C", "question": "我喜欢清晰的工作指令和规范"},
+    {"id": 58, "category": "C", "question": "我对行政管理或秘书工作感兴趣"},
+    {"id": 59, "category": "C", "question": "我习惯提前做好计划和安排"},
+    {"id": 60, "category": "C", "question": "我喜欢检查数据并确保准确无误"}
+  ],
+  "total_questions": 60
+}
