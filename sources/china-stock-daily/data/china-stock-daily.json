@@ -1,0 +1,91 @@
+{
+  "source": "Yahoo Finance (yfinance)",
+  "description": "A股今日行情解读",
+  "market": "A股 (上海/深圳)",
+  "date": "2026-06-08",
+  "scraped_at": "2026-06-08T14:53:17Z",
+  "market_sentiment": "明显下跌 📉",
+  "indices": [
+    {
+      "symbol": "000001.SS",
+      "name": "上证指数",
+      "name_cn": "上证指数",
+      "price": 3959.34,
+      "change": -68.4,
+      "change_pct": -1.7,
+      "open": 3938.71,
+      "high": 4007.49,
+      "low": 3927.85,
+      "volume": 1504846060
+    },
+    {
+      "symbol": "399001.SZ",
+      "name": "SZSE Component Index",
+      "name_cn": "深证成指",
+      "price": 14821.19,
+      "change": -493.51,
+      "change_pct": -3.22,
+      "open": 14835.37,
+      "high": 15137.75,
+      "low": 14681.64,
+      "volume": 463500014
+    },
+    {
+      "symbol": "399006.SZ",
+      "name": "ChiNext Index",
+      "name_cn": "创业板指",
+      "price": 3811.79,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "open": 3820.23,
+      "high": 3903.77,
+      "low": 3776.93,
+      "volume": 3816358979
+    },
+    {
+      "symbol": "000688.SS",
+      "name": "STAR 50 Index",
+      "name_cn": "科创50",
+      "price": 1596.57,
+      "change": 0.0,
+      "change_pct": 0.0,
+      "open": 1587.97,
+      "high": 1634.03,
+      "low": 1578.18,
+      "volume": 1570749900
+    },
+    {
+      "symbol": "000300.SS",
+      "name": "CSI 300 Index",
+      "name_cn": "沪深300",
+      "price": 4713.64,
+      "change": -103.28,
+      "change_pct": -2.14,
+      "open": 4703.77,
+      "high": 4779.86,
+      "low": 4677.57,
+      "volume": 4194952724
+    }
+  ],
+  "sectors": {
+    "银行": 1.28,
+    "证券": -1.96,
+    "白酒": 0.0,
+    "医药": -3.03,
+    "新能源": -4.42,
+    "半导体": -4.31,
+    "军工": -3.94
+  },
+  "summary": {
+    "sentiment": "明显下跌 📉",
+    "hot_sectors": [
+      "银行(+1.28%)"
+    ],
+    "cold_sectors": [
+      "白酒(+0.00%)",
+      "证券(-1.96%)",
+      "医药(-3.03%)"
+    ],
+    "advance_decline": "上涨板块 1 个 / 下跌板块 5 个"
+  }
+}
