@@ -26,7 +26,6 @@ jobs:
       - name: 抓取 & 解析
         run: python scripts/scrape.py
         working-directory: ./sources/numbeo-income-data
-        working-directory: ./sources/numbeo-income-data
 
       - name: 提交 & 推送
         run: |
