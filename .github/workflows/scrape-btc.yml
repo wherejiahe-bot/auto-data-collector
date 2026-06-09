@@ -25,6 +25,7 @@ jobs:
       - name: 抓取 & 解析
         run: python scripts/scrape.py
         working-directory: ./sources/btc-price
+        working-directory: ./sources/btc-price
 
       - name: 提交 & 推送
         run: |
