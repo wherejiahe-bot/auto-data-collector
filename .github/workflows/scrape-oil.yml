@@ -25,7 +25,6 @@ jobs:
       - name: 抓取油价数据
         run: python scripts/scrape.py
         working-directory: ./sources/oil-price
-        working-directory: ./sources/oil-price
 
       - name: 提交 & 推送
         run: |
