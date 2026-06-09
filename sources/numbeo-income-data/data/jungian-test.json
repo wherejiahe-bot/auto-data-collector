@@ -1,0 +1,138 @@
+{
+  "source": "荣格八维认知功能测试 (Jungian Cognitive Functions)",
+  "description": "荣格八维认知功能测试题目，基于荣格心理学和MBTI理论基础，测量8种认知功能的使用偏好",
+  "updated_at": "2026-05-25",
+  "total_questions": 80,
+  "dimensions": [
+    {
+      "code": "Ne",
+      "name": "外倾直觉",
+      "description": "关注外部世界的可能性、模式和联系，善于发散思维和构想新点子"
+    },
+    {
+      "code": "Ni",
+      "name": "内倾直觉",
+      "description": "关注内在的洞察、愿景和象征意义，善于深度思考和预见未来"
+    },
+    {
+      "code": "Se",
+      "name": "外倾感觉",
+      "description": "关注当下的感官体验和外部环境细节，善于行动和体验"
+    },
+    {
+      "code": "Si",
+      "name": "内倾感觉",
+      "description": "关注过去的经验和记忆，注重传统、稳定和细节"
+    },
+    {
+      "code": "Te",
+      "name": "外倾思考",
+      "description": "关注外部世界的逻辑和效率，善于组织、计划和执行"
+    },
+    {
+      "code": "Ti",
+      "name": "内倾思考",
+      "description": "关注内在的逻辑体系和概念分析，善于分类和定义"
+    },
+    {
+      "code": "Fe",
+      "name": "外倾情感",
+      "description": "关注他人的情感和群体和谐，善于共情和维护关系"
+    },
+    {
+      "code": "Fi",
+      "name": "内倾情感",
+      "description": "关注内在的价值观和个人情感，真诚、忠于自我"
+    }
+  ],
+  "instructions": "每题请按1-5分评分：1=完全不同意，2=不同意，3=中立，4=同意，5=完全同意",
+  "data": [
+    {"id": "Ne01", "dimension": "Ne", "question": "我经常从一个想法跳跃到另一个想法，产生很多新点子。", "direction": "positive"},
+    {"id": "Ne02", "dimension": "Ne", "question": "我善于发现事物之间的潜在联系。", "direction": "positive"},
+    {"id": "Ne03", "dimension": "Ne", "question": "我喜欢头脑风暴，不设限制地探索各种可能性。", "direction": "positive"},
+    {"id": "Ne04", "dimension": "Ne", "question": "我对新事物充满好奇，总想尝试不同的方式。", "direction": "positive"},
+    {"id": "Ne05", "dimension": "Ne", "question": "我经常能预见到多种可能的发展方向。", "direction": "positive"},
+    {"id": "Ne06", "dimension": "Ne", "question": "在讨论中，我很容易被新想法带跑偏。", "direction": "positive"},
+    {"id": "Ne07", "dimension": "Ne", "question": "我喜欢即兴发挥，而不是按部就班。", "direction": "positive"},
+    {"id": "Ne08", "dimension": "Ne", "question": "我能从看似无关的事物中找到关联。", "direction": "positive"},
+    {"id": "Ne09", "dimension": "Ne", "question": "我享受探索'如果……会怎样'这样的假设性问题。", "direction": "positive"},
+    {"id": "Ne10", "dimension": "Ne", "question": "我的思维经常发散，很难只专注于一件事。", "direction": "positive"},
+
+    {"id": "Ni01", "dimension": "Ni", "question": "我经常有强烈的直觉，预感事情会如何发展。", "direction": "positive"},
+    {"id": "Ni02", "dimension": "Ni", "question": "我擅长透过表象看到事物的本质。", "direction": "positive"},
+    {"id": "Ni03", "dimension": "Ni", "question": "我经常沉浸在自己的内心世界中思考。", "direction": "positive"},
+    {"id": "Ni04", "dimension": "Ni", "question": "我对未来有清晰的愿景，知道想要什么。", "direction": "positive"},
+    {"id": "Ni05", "dimension": "Ni", "question": "我注重象征意义和隐喻，不只是字面意思。", "direction": "positive"},
+    {"id": "Ni06", "dimension": "Ni", "question": "我经常不需要分析就能直接知道答案。", "direction": "positive"},
+    {"id": "Ni07", "dimension": "Ni", "question": "我善于做长期规划，能预见到潜在问题。", "direction": "positive"},
+    {"id": "Ni08", "dimension": "Ni", "question": "我更喜欢深入理解一个概念，而不是广泛了解很多。", "direction": "positive"},
+    {"id": "Ni09", "dimension": "Ni", "question": "我经常做很生动的梦，并且觉得它们有意义。", "direction": "positive"},
+    {"id": "Ni10", "dimension": "Ni", "question": "我的思想经常被深刻的洞见所占据。", "direction": "positive"},
+
+    {"id": "Se01", "dimension": "Se", "question": "我注重当下的体验，享受感官的愉悦。", "direction": "positive"},
+    {"id": "Se02", "dimension": "Se", "question": "我善于注意到环境中的细节变化。", "direction": "positive"},
+    {"id": "Se03", "dimension": "Se", "question": "我喜欢动手实践，而不是纸上谈兵。", "direction": "positive"},
+    {"id": "Se04", "dimension": "Se", "question": "我对美食、音乐、艺术等感官体验有很高的品味。", "direction": "positive"},
+    {"id": "Se05", "dimension": "Se", "question": "我善于在紧急情况下快速反应。", "direction": "positive"},
+    {"id": "Se06", "dimension": "Se", "question": "我热爱运动和各种身体活动。", "direction": "positive"},
+    {"id": "Se07", "dimension": "Se", "question": "我很容易被外部环境分心，对周围发生的事情很敏感。", "direction": "positive"},
+    {"id": "Se08", "dimension": "Se", "question": "我更喜欢活在当下，而不是纠结过去或担心未来。", "direction": "positive"},
+    {"id": "Se09", "dimension": "Se", "question": "我善于观察人的表情和肢体语言。", "direction": "positive"},
+    {"id": "Se10", "dimension": "Se", "question": "我喜欢冒险和新奇的体验。", "direction": "positive"},
+
+    {"id": "Si01", "dimension": "Si", "question": "我善于记住过去的细节和经验。", "direction": "positive"},
+    {"id": "Si02", "dimension": "Si", "question": "我喜欢按既定程序和惯例做事。", "direction": "positive"},
+    {"id": "Si03", "dimension": "Si", "question": "我重视传统和稳定性。", "direction": "positive"},
+    {"id": "Si04", "dimension": "Si", "question": "我的个人记忆非常生动，能清晰回忆起过去的事情。", "direction": "positive"},
+    {"id": "Si05", "dimension": "Si", "question": "我喜欢建立规律的生活习惯。", "direction": "positive"},
+    {"id": "Si06", "dimension": "Si", "question": "做决定时，我通常会参考过往的成功经验。", "direction": "positive"},
+    {"id": "Si07", "dimension": "Si", "question": "我善于收集和整理信息以备将来使用。", "direction": "positive"},
+    {"id": "Si08", "dimension": "Si", "question": "我对自己经历过的细节记忆犹新。", "direction": "positive"},
+    {"id": "Si09", "dimension": "Si", "question": "我倾向于选择熟悉和可靠的方式，而不是尝试全新的。", "direction": "positive"},
+    {"id": "Si10", "dimension": "Si", "question": "我喜欢回顾过去，从历史中汲取教训。", "direction": "positive"},
+
+    {"id": "Te01", "dimension": "Te", "question": "我善于制定清晰的计划和目标。", "direction": "positive"},
+    {"id": "Te02", "dimension": "Te", "question": "我喜欢用逻辑和效率来衡量事物。", "direction": "positive"},
+    {"id": "Te03", "dimension": "Te", "question": "我注重结果和产出，不喜欢浪费时间。", "direction": "positive"},
+    {"id": "Te04", "dimension": "Te", "question": "我善于组织资源和人完成任务。", "direction": "positive"},
+    {"id": "Te05", "dimension": "Te", "question": "在做决策时，我优先考虑客观事实和数据。", "direction": "positive"},
+    {"id": "Te06", "dimension": "Te", "question": "我有一套自己的做事体系和方法。", "direction": "positive"},
+    {"id": "Te07", "dimension": "Te", "question": "我经常制定时间表和截止日期。", "direction": "positive"},
+    {"id": "Te08", "dimension": "Te", "question": "我认为规则和标准是维持秩序的必要手段。", "direction": "positive"},
+    {"id": "Te09", "dimension": "Te", "question": "我善于发现做事流程中的低效之处并加以改进。", "direction": "positive"},
+    {"id": "Te10", "dimension": "Te", "question": "我倾向于直接指出问题，而不是绕着弯子说。", "direction": "positive"},
+
+    {"id": "Ti01", "dimension": "Ti", "question": "我善于分析问题的逻辑结构。", "direction": "positive"},
+    {"id": "Ti02", "dimension": "Ti", "question": "我喜欢追求概念的精确性和一致性。", "direction": "positive"},
+    {"id": "Ti03", "dimension": "Ti", "question": "我经常在内心构建自己的理论和知识体系。", "direction": "positive"},
+    {"id": "Ti04", "dimension": "Ti", "question": "我会反复推敲一个想法，直到它符合逻辑。", "direction": "positive"},
+    {"id": "Ti05", "dimension": "Ti", "question": "我善于发现论证中的逻辑漏洞。", "direction": "positive"},
+    {"id": "Ti06", "dimension": "Ti", "question": "我对事物的分类和定义有很高的要求。", "direction": "positive"},
+    {"id": "Ti07", "dimension": "Ti", "question": "我喜欢独立深入思考问题。", "direction": "positive"},
+    {"id": "Ti08", "dimension": "Ti", "question": "在做判断时，我更看重逻辑一致性而非外部认可。", "direction": "positive"},
+    {"id": "Ti09", "dimension": "Ti", "question": "我经常反思自己的思维过程，试图理解自己是如何思考的。", "direction": "positive"},
+    {"id": "Ti10", "dimension": "Ti", "question": "我容易被逻辑上站不住脚的说法激怒。", "direction": "positive"},
+
+    {"id": "Fe01", "dimension": "Fe", "question": "我很在意他人的感受和需求。", "direction": "positive"},
+    {"id": "Fe02", "dimension": "Fe", "question": "我善于营造和谐融洽的氛围。", "direction": "positive"},
+    {"id": "Fe03", "dimension": "Fe", "question": "我会根据场合调整自己的言行，不让别人难堪。", "direction": "positive"},
+    {"id": "Fe04", "dimension": "Fe", "question": "我很容易感受到周围人的情绪变化。", "direction": "positive"},
+    {"id": "Fe05", "dimension": "Fe", "question": "我认为维护人际关系比坚持原则更重要。", "direction": "positive"},
+    {"id": "Fe06", "dimension": "Fe", "question": "我喜欢帮助他人，从中获得满足感。", "direction": "positive"},
+    {"id": "Fe07", "dimension": "Fe", "question": "我对社交礼仪和规则很敏感。", "direction": "positive"},
+    {"id": "Fe08", "dimension": "Fe", "question": "我经常设身处地地为他人着想。", "direction": "positive"},
+    {"id": "Fe09", "dimension": "Fe", "question": "当团队出现冲突时，我会主动调解。", "direction": "positive"},
+    {"id": "Fe10", "dimension": "Fe", "question": "我为他人做的事情很容易感动。", "direction": "positive"},
+
+    {"id": "Fi01", "dimension": "Fi", "question": "我有自己坚定的价值观和信念。", "direction": "positive"},
+    {"id": "Fi02", "dimension": "Fi", "question": "我对自己真实，不会为了迎合他人而改变自己。", "direction": "positive"},
+    {"id": "Fi03", "dimension": "Fi", "question": "我对是非对错有强烈的内心判断。", "direction": "positive"},
+    {"id": "Fi04", "dimension": "Fi", "question": "我经常深入了解自己的情感和内心世界。", "direction": "positive"},
+    {"id": "Fi05", "dimension": "Fi", "question": "做决定时我最重要的依据是'这符合我的价值观吗'。", "direction": "positive"},
+    {"id": "Fi06", "dimension": "Fi", "question": "我对自己认同的事情有很强的热情。", "direction": "positive"},
+    {"id": "Fi07", "dimension": "Fi", "question": "当我的价值观被侵犯时，我会非常不适。", "direction": "positive"},
+    {"id": "Fi08", "dimension": "Fi", "question": "我通过写作或艺术来表达内心深处的情感。", "direction": "positive"},
+    {"id": "Fi09", "dimension": "Fi", "question": "我关注什么是对我来说真正重要的。", "direction": "positive"},
+    {"id": "Fi10", "dimension": "Fi", "question": "我很难做与自己价值观相悖的事情，即使有好处。", "direction": "positive"}
+  ]
+}
