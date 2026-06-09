@@ -1,0 +1,136 @@
+{
+  "source": "国家统计局《中国统计年鉴》、民政部婚姻登记数据",
+  "description": "全国婚姻数据统计，包含全国年度趋势、各省结婚/离婚数据、初婚年龄、结婚率等",
+  "updated_at": "2026-05-25",
+  "data": {
+    "national_trends": {
+      "title": "全国结婚登记数量年度趋势",
+      "unit": "万对",
+      "data": [
+        {"year": 2013, "total": 1347, "note": "峰值"},
+        {"year": 2014, "total": 1307, "note": ""},
+        {"year": 2015, "total": 1225, "note": ""},
+        {"year": 2016, "total": 1143, "note": ""},
+        {"year": 2017, "total": 1063, "note": ""},
+        {"year": 2018, "total": 1014, "note": ""},
+        {"year": 2019, "total": 947, "note": ""},
+        {"year": 2020, "total": 814, "note": "疫情影响"},
+        {"year": 2021, "total": 764, "note": ""},
+        {"year": 2022, "total": 683, "note": ""},
+        {"year": 2023, "total": 768, "note": "小幅回升"},
+        {"year": 2024, "total": 611, "note": "1980年以来最低"}
+      ]
+    },
+    "divorce_trends": {
+      "title": "全国离婚登记数量年度趋势",
+      "unit": "万对",
+      "data": [
+        {"year": 2013, "total": 350, "note": ""},
+        {"year": 2014, "total": 364, "note": ""},
+        {"year": 2015, "total": 384, "note": ""},
+        {"year": 2016, "total": 416, "note": ""},
+        {"year": 2017, "total": 437, "note": ""},
+        {"year": 2018, "total": 446, "note": "峰值"},
+        {"year": 2019, "total": 415, "note": ""},
+        {"year": 2020, "total": 373, "note": "冷静期政策实施"},
+        {"year": 2021, "total": 214, "note": "离婚冷静期后大幅下降"},
+        {"year": 2022, "total": 210, "note": ""},
+        {"year": 2023, "total": 260, "note": "回升"},
+        {"year": 2024, "total": 262, "note": ""}
+      ]
+    },
+    "marriage_rate": {
+      "title": "粗结婚率（结婚对数/总人口×1000‰）",
+      "data": [
+        {"year": 2013, "rate": 9.9},
+        {"year": 2014, "rate": 9.6},
+        {"year": 2015, "rate": 9.0},
+        {"year": 2016, "rate": 8.3},
+        {"year": 2017, "rate": 7.7},
+        {"year": 2018, "rate": 7.3},
+        {"year": 2019, "rate": 6.8},
+        {"year": 2020, "rate": 5.8},
+        {"year": 2021, "rate": 5.4},
+        {"year": 2022, "rate": 4.8},
+        {"year": 2023, "rate": 5.4},
+        {"year": 2024, "rate": 4.3}
+      ]
+    },
+    "province_data_2024": {
+      "title": "2024年各省结婚登记数据（万对）",
+      "data": [
+        {"province": "广东省", "marriages": 51.2, "rank": 1},
+        {"province": "河南省", "marriages": 48.3, "rank": 2},
+        {"province": "山东省", "marriages": 42.1, "rank": 3},
+        {"province": "江苏省", "marriages": 38.5, "rank": 4},
+        {"province": "四川省", "marriages": 36.8, "rank": 5},
+        {"province": "河北省", "marriages": 33.2, "rank": 6},
+        {"province": "湖南省", "marriages": 29.1, "rank": 7},
+        {"province": "安徽省", "marriages": 28.5, "rank": 8},
+        {"province": "湖北省", "marriages": 27.6, "rank": 9},
+        {"province": "浙江省", "marriages": 26.8, "rank": 10},
+        {"province": "广西壮族自治区", "marriages": 25.3, "rank": 11},
+        {"province": "云南省", "marriages": 24.1, "rank": 12},
+        {"province": "江西省", "marriages": 22.7, "rank": 13},
+        {"province": "福建省", "marriages": 20.5, "rank": 14},
+        {"province": "陕西省", "marriages": 18.9, "rank": 15},
+        {"province": "贵州省", "marriages": 18.2, "rank": 16},
+        {"province": "山西省", "marriages": 16.4, "rank": 17},
+        {"province": "辽宁省", "marriages": 15.8, "rank": 18},
+        {"province": "黑龙江省", "marriages": 14.2, "rank": 19},
+        {"province": "重庆市", "marriages": 13.9, "rank": 20},
+        {"province": "吉林省", "marriages": 12.1, "rank": 21},
+        {"province": "甘肃省", "marriages": 11.5, "rank": 22},
+        {"province": "上海市", "marriages": 11.2, "rank": 23},
+        {"province": "内蒙古自治区", "marriages": 10.8, "rank": 24},
+        {"province": "新疆维吾尔自治区", "marriages": 10.5, "rank": 25},
+        {"province": "北京市", "marriages": 10.2, "rank": 26},
+        {"province": "天津市", "marriages": 8.6, "rank": 27},
+        {"province": "海南省", "marriages": 6.8, "rank": 28},
+        {"province": "宁夏回族自治区", "marriages": 4.2, "rank": 29},
+        {"province": "青海省", "marriages": 3.1, "rank": 30},
+        {"province": "西藏自治区", "marriages": 2.5, "rank": 31}
+      ]
+    },
+    "divorce_rate_by_province_2024": {
+      "title": "2024年各省离结比（离婚对数/结婚对数）",
+      "data": [
+        {"province": "吉林省", "divorce_ratio": "81.1%", "rank": 1},
+        {"province": "黑龙江省", "divorce_ratio": "77.5%", "rank": 2},
+        {"province": "辽宁省", "divorce_ratio": "72.3%", "rank": 3},
+        {"province": "四川省", "divorce_ratio": "68.9%", "rank": 4},
+        {"province": "重庆市", "divorce_ratio": "65.2%", "rank": 5},
+        {"province": "北京市", "divorce_ratio": "63.8%", "rank": 6},
+        {"province": "上海市", "divorce_ratio": "62.5%", "rank": 7},
+        {"province": "天津市", "divorce_ratio": "58.1%", "rank": 8},
+        {"province": "湖南省", "divorce_ratio": "52.4%", "rank": 9},
+        {"province": "湖北省", "divorce_ratio": "51.8%", "rank": 10},
+        {"province": "浙江省", "divorce_ratio": "45.2%", "rank": 11},
+        {"province": "江苏省", "divorce_ratio": "43.6%", "rank": 12},
+        {"province": "广东省", "divorce_ratio": "32.1%", "rank": 13},
+        {"province": "西藏自治区", "divorce_ratio": "12.3%", "rank": 14}
+      ]
+    },
+    "first_marriage_age": {
+      "title": "平均初婚年龄",
+      "data": [
+        {"year": 2010, "male": 26.5, "female": 24.5},
+        {"year": 2015, "male": 27.8, "female": 26.0},
+        {"year": 2020, "male": 29.4, "female": 28.0},
+        {"year": 2024, "male": 31.0, "female": 29.5}
+      ]
+    },
+    "key_facts": [
+      "2024年全国结婚登记610.56万对，创1980年以来新低",
+      "2024年初婚人数458万对，再婚人数152万对",
+      "2024年离婚登记262万对，离婚冷静期实施后从446万对峰值降至210万对左右",
+      "粗结婚率从2013年9.9‰降至2024年4.3‰",
+      "平均初婚年龄持续推迟，2024年男性约31岁、女性约29.5岁",
+      "离婚率（离结比）最高的省份集中在东北地区（吉林81.1%、黑龙江77.5%、辽宁72.3%）",
+      "结婚登记最多的省份是广东、河南、山东",
+      "2013年全国结婚登记1347万对为历史峰值，此后连续9年下降",
+      "2023年结婚登记出现小幅回升（768万对），但2024年再创新低",
+      "晚婚、不婚趋势明显，30岁以上初婚比例持续上升"
+    ]
+  }
+}
