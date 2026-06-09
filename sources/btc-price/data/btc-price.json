@@ -1,0 +1,23 @@
+{
+  "source": "Yahoo Finance (yfinance)",
+  "description": "比特币 (BTC-USD) 今日行情",
+  "currency": "USD",
+  "scraped_at": "2026-06-09T10:43:23Z",
+  "data": {
+    "symbol": "BTC-USD",
+    "name": "Bitcoin",
+    "name_cn": "比特币",
+    "price": 62671.44140625,
+    "change_24h": -419.15,
+    "change_24h_pct": -0.66,
+    "high_24h": 63484.54,
+    "low_24h": 62420.56,
+    "volume_24h": 34349701120,
+    "open_24h": 63078.89,
+    "market_cap": 1255533576192,
+    "circulating_supply": 20039088,
+    "week_high": 64185.77,
+    "week_low": 59108.92,
+    "rank": 0
+  }
+}
