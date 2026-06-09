@@ -1,0 +1,83 @@
+{
+  "source": "中医养生知识综合",
+  "description": "肾虚程度查询。基于中医理论，通过症状对照评估肾虚类型（肾阳虚/肾阴虚/肾气虚）和程度。仅提供参考，不构成医学诊断。",
+  "disclaimer": "本查询结果仅供参考，不能替代专业中医诊断。如有身体不适，建议前往正规医院就诊。",
+  "assessment_categories": [
+    {
+      "type": "肾阳虚",
+      "description": "体内阳气不足，温煦功能减退",
+      "common_causes": ["先天不足", "年高肾亏", "久病伤肾", "房劳过度", "过食生冷"],
+      "symptoms": [
+        {"symptom": "怕冷畏寒，四肢不温", "weight": "主要", "score": 3},
+        {"symptom": "腰膝酸软冷痛", "weight": "主要", "score": 3},
+        {"symptom": "精神萎靡，乏力嗜睡", "weight": "主要", "score": 2},
+        {"symptom": "夜尿频多，小便清长", "weight": "常见", "score": 2},
+        {"symptom": "性欲减退，阳痿早泄", "weight": "常见", "score": 2},
+        {"symptom": "面色苍白或黧黑", "weight": "常见", "score": 2},
+        {"symptom": "头晕耳鸣", "weight": "伴随", "score": 1},
+        {"symptom": "大便溏稀", "weight": "伴随", "score": 1},
+        {"symptom": "舌淡胖，苔白滑", "weight": "舌象", "score": 2},
+        {"symptom": "脉沉迟无力", "weight": "脉象", "score": 2}
+      ],
+      "max_score": 20
+    },
+    {
+      "type": "肾阴虚",
+      "description": "体内阴液不足，虚火内扰",
+      "common_causes": ["久病伤阴", "过度劳累", "熬夜损耗", "房事不节", "过食辛辣"],
+      "symptoms": [
+        {"symptom": "腰膝酸软", "weight": "主要", "score": 3},
+        {"symptom": "头晕耳鸣", "weight": "主要", "score": 3},
+        {"symptom": "失眠多梦", "weight": "常见", "score": 2},
+        {"symptom": "五心烦热（手心脚心发热）", "weight": "常见", "score": 2},
+        {"symptom": "盗汗（夜间出汗）", "weight": "常见", "score": 2},
+        {"symptom": "口干咽燥", "weight": "常见", "score": 2},
+        {"symptom": "颧红（两颊潮红）", "weight": "伴随", "score": 1},
+        {"symptom": "尿黄便干", "weight": "伴随", "score": 1},
+        {"symptom": "遗精早泄", "weight": "常见", "score": 2},
+        {"symptom": "舌红少苔", "weight": "舌象", "score": 2}
+      ],
+      "max_score": 20
+    },
+    {
+      "type": "肾气虚",
+      "description": "肾气亏虚，固摄功能减退",
+      "common_causes": ["年老体衰", "久病不愈", "过度劳累", "先天不足"],
+      "symptoms": [
+        {"symptom": "腰膝酸软无力", "weight": "主要", "score": 3},
+        {"symptom": "气短乏力，动则加重", "weight": "主要", "score": 3},
+        {"symptom": "尿频或尿后余沥不尽", "weight": "常见", "score": 2},
+        {"symptom": "滑精早泄", "weight": "常见", "score": 2},
+        {"symptom": "月经淋漓不尽（女性）", "weight": "常见", "score": 2},
+        {"symptom": "听力下降", "weight": "伴随", "score": 1},
+        {"symptom": "自汗（白天易出汗）", "weight": "伴随", "score": 1},
+        {"symptom": "面色淡白", "weight": "伴随", "score": 1},
+        {"symptom": "舌淡苔白", "weight": "舌象", "score": 2},
+        {"symptom": "脉细弱", "weight": "脉象", "score": 2}
+      ],
+      "max_score": 20
+    }
+  ],
+  "severity_levels": [
+    {"level": "正常", "score_range": "0-4", "description": "无明显肾虚症状，注意保持良好生活习惯即可"},
+    {"level": "轻度", "score_range": "5-8", "description": "有轻微肾虚倾向，建议调整作息、适当运动、食补调理"},
+    {"level": "中度", "score_range": "9-14", "description": "有明显肾虚症状，建议咨询中医师，配合中药调理和生活方式调整"},
+    {"level": "重度", "score_range": "15-20", "description": "肾虚症状明显，强烈建议前往正规医院中医科就诊，进行系统调理"}
+  ],
+  "general_tips": [
+    "规律作息，避免熬夜，晚上11点前入睡有助于肾气恢复",
+    "适度运动，如八段锦、太极拳、散步等温和运动",
+    "节制房事，避免过度消耗肾精",
+    "饮食调理：肾阳虚宜温补（羊肉、韭菜、核桃）；肾阴虚宜滋阴（黑芝麻、枸杞、桑葚）；肾气虚宜补气（山药、芡实、莲子）",
+    "避免过度劳累，注意劳逸结合",
+    "保持心情舒畅，焦虑和压力会加重肾虚",
+    "穴位保健：按摩涌泉穴、太溪穴、关元穴有助补肾"
+  ],
+  "common_misconceptions": [
+    {"myth": "腰痛就是肾虚", "truth": "腰痛可能由腰肌劳损、腰椎间盘突出等多种原因引起，不一定是肾虚"},
+    {"myth": "肾虚就是肾病", "truth": "中医的\"肾\"是一个功能系统概念，不等同于西医的肾脏器官疾病"},
+    {"myth": "肾虚只发生在男性", "truth": "女性也会肾虚，常见症状包括腰膝酸软、月经不调、脱发等"},
+    {"myth": "吃腰子补腰", "truth": "动物内脏胆固醇较高，且\"以形补形\"缺乏科学依据，不建议过量食用"},
+    {"myth": "六味地黄丸适合所有人", "truth": "六味地黄丸只适合肾阴虚，肾阳虚服用反而可能加重症状"}
+  ]
+}
