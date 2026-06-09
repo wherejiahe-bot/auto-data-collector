@@ -1,0 +1,126 @@
+{
+  "source": "中国传统节气历法",
+  "description": "今日节气与七十二候查询。包含全部二十四节气信息、日期范围、三候（每候五天）详解。",
+  "solar_terms": [
+    {"name": "立春", "date_typical": "2月3-5日", "description": "春季开始，万物复苏", "three_waiting": [
+      {"name": "东风解冻", "description": "东风吹来，大地开始解冻"},
+      {"name": "蛰虫始振", "description": "冬眠的虫类开始苏醒活动"},
+      {"name": "鱼陟负冰", "description": "河冰融化，鱼浮出水面"}
+    ]},
+    {"name": "雨水", "date_typical": "2月18-20日", "description": "降雨增多，气温回升", "three_waiting": [
+      {"name": "獭祭鱼", "description": "水獭开始捕鱼，将鱼陈列岸边"},
+      {"name": "候雁北", "description": "大雁开始从南方向北飞"},
+      {"name": "草木萌动", "description": "草木开始发芽生长"}
+    ]},
+    {"name": "惊蛰", "date_typical": "3月5-7日", "description": "春雷始鸣，惊动万物", "three_waiting": [
+      {"name": "桃始华", "description": "桃花开始盛开"},
+      {"name": "仓庚鸣", "description": "黄鹂鸟开始鸣叫"},
+      {"name": "鹰化为鸠", "description": "鹰隼变得温和，如同布谷鸟"}
+    ]},
+    {"name": "春分", "date_typical": "3月20-22日", "description": "昼夜平分，春意正浓", "three_waiting": [
+      {"name": "玄鸟至", "description": "燕子从南方飞回"},
+      {"name": "雷乃发声", "description": "春雷开始响起"},
+      {"name": "始电", "description": "开始出现闪电"}
+    ]},
+    {"name": "清明", "date_typical": "4月4-6日", "description": "天气清澈明朗，万物生长", "three_waiting": [
+      {"name": "桐始华", "description": "梧桐树开始开花"},
+      {"name": "田鼠化为鴽", "description": "田鼠回到洞中，鹌鹑出现"},
+      {"name": "虹始见", "description": "雨后开始出现彩虹"}
+    ]},
+    {"name": "谷雨", "date_typical": "4月19-21日", "description": "雨水增多，利于谷物生长", "three_waiting": [
+      {"name": "萍始生", "description": "浮萍开始在水面生长"},
+      {"name": "鸣鸠拂其羽", "description": "布谷鸟梳理羽毛，提醒播种"},
+      {"name": "戴胜降于桑", "description": "戴胜鸟飞到桑树上"}
+    ]},
+    {"name": "立夏", "date_typical": "5月5-7日", "description": "夏季开始，气温升高", "three_waiting": [
+      {"name": "蝼蝈鸣", "description": "青蛙开始在田间鸣叫"},
+      {"name": "蚯蚓出", "description": "蚯蚓从土中钻出"},
+      {"name": "王瓜生", "description": "王瓜开始生长结果"}
+    ]},
+    {"name": "小满", "date_typical": "5月20-22日", "description": "麦类灌浆，稍稍饱满", "three_waiting": [
+      {"name": "苦菜秀", "description": "苦菜枝繁叶茂"},
+      {"name": "靡草死", "description": "喜阴的草类在烈日下枯萎"},
+      {"name": "麦秋至", "description": "麦子开始成熟"}
+    ]},
+    {"name": "芒种", "date_typical": "6月5-7日", "description": "有芒作物成熟，农事繁忙", "three_waiting": [
+      {"name": "螳螂生", "description": "螳螂孵化出生"},
+      {"name": "鵙始鸣", "description": "伯劳鸟开始鸣叫"},
+      {"name": "反舌无声", "description": "百舌鸟停止鸣叫"}
+    ]},
+    {"name": "夏至", "date_typical": "6月21-22日", "description": "白昼最长，阳气最盛", "three_waiting": [
+      {"name": "鹿角解", "description": "鹿角开始脱落"},
+      {"name": "蝉始鸣", "description": "知了开始鸣叫"},
+      {"name": "半夏生", "description": "半夏这种药材开始生长"}
+    ]},
+    {"name": "小暑", "date_typical": "7月6-8日", "description": "天气开始炎热", "three_waiting": [
+      {"name": "温风至", "description": "开始刮热风"},
+      {"name": "蟋蟀居宇", "description": "蟋蟀躲在屋檐下避暑"},
+      {"name": "鹰始鸷", "description": "雏鹰开始学习捕食"}
+    ]},
+    {"name": "大暑", "date_typical": "7月22-24日", "description": "一年中最热的时期", "three_waiting": [
+      {"name": "腐草为萤", "description": "萤火虫从腐草中孵化而出"},
+      {"name": "土润溽暑", "description": "土地潮湿，天气闷热"},
+      {"name": "大雨时行", "description": "经常下大雨"}
+    ]},
+    {"name": "立秋", "date_typical": "8月7-9日", "description": "秋季开始，暑气渐消", "three_waiting": [
+      {"name": "凉风至", "description": "开始刮凉风"},
+      {"name": "白露降", "description": "早晨地面出现露水"},
+      {"name": "寒蝉鸣", "description": "秋蝉开始鸣叫"}
+    ]},
+    {"name": "处暑", "date_typical": "8月22-24日", "description": "暑气消退，秋意渐浓", "three_waiting": [
+      {"name": "鹰乃祭鸟", "description": "鹰开始大量捕食鸟类"},
+      {"name": "天地始肃", "description": "天地万物开始凋零肃杀"},
+      {"name": "禾乃登", "description": "五谷开始成熟收获"}
+    ]},
+    {"name": "白露", "date_typical": "9月7-9日", "description": "天气转凉，露水凝结", "three_waiting": [
+      {"name": "鸿雁来", "description": "大雁开始向南飞"},
+      {"name": "玄鸟归", "description": "燕子飞回南方"},
+      {"name": "群鸟养羞", "description": "群鸟开始储存食物过冬"}
+    ]},
+    {"name": "秋分", "date_typical": "9月22-24日", "description": "昼夜平分，秋高气爽", "three_waiting": [
+      {"name": "雷始收声", "description": "雷声逐渐消失"},
+      {"name": "蛰虫坯户", "description": "冬眠的虫类开始封堵洞口"},
+      {"name": "水始涸", "description": "河湖水位下降开始干涸"}
+    ]},
+    {"name": "寒露", "date_typical": "10月7-9日", "description": "露水更冷，将要结冰", "three_waiting": [
+      {"name": "鸿雁来宾", "description": "最后一批大雁列队南飞"},
+      {"name": "雀入大水为蛤", "description": "雀鸟消失，海边出现更多蛤蜊"},
+      {"name": "菊有黄华", "description": "菊花开始盛开"}
+    ]},
+    {"name": "霜降", "date_typical": "10月23-24日", "description": "天气渐冷，开始有霜", "three_waiting": [
+      {"name": "豺乃祭兽", "description": "豺狼开始大量捕食储存过冬"},
+      {"name": "草木黄落", "description": "草木枯黄落叶"},
+      {"name": "蛰虫咸俯", "description": "冬眠的虫类全部蛰伏不动"}
+    ]},
+    {"name": "立冬", "date_typical": "11月7-8日", "description": "冬季开始，万物收藏", "three_waiting": [
+      {"name": "水始冰", "description": "水面开始结冰"},
+      {"name": "地始冻", "description": "土地开始冻结"},
+      {"name": "雉入大水为蜃", "description": "野鸡消失，海边出现大蛤"}
+    ]},
+    {"name": "小雪", "date_typical": "11月22-23日", "description": "开始降雪，但雪量不大", "three_waiting": [
+      {"name": "虹藏不见", "description": "彩虹不再出现"},
+      {"name": "天气上升地气下降", "description": "天地之气互不交通"},
+      {"name": "闭塞而成冬", "description": "万物闭塞，正式入冬"}
+    ]},
+    {"name": "大雪", "date_typical": "12月6-8日", "description": "降雪增多，天地银装", "three_waiting": [
+      {"name": "鹖鴠不鸣", "description": "寒号鸟不再鸣叫"},
+      {"name": "虎始交", "description": "老虎开始求偶交配"},
+      {"name": "荔挺出", "description": "荔草开始萌发新芽"}
+    ]},
+    {"name": "冬至", "date_typical": "12月21-23日", "description": "白昼最短，阴极阳生", "three_waiting": [
+      {"name": "蚯蚓结", "description": "蚯蚓蜷缩在土中"},
+      {"name": "麋角解", "description": "麋鹿的角开始脱落"},
+      {"name": "水泉动", "description": "地下水开始流动回暖"}
+    ]},
+    {"name": "小寒", "date_typical": "1月5-7日", "description": "天气寒冷，但尚未到极点", "three_waiting": [
+      {"name": "雁北乡", "description": "大雁开始向北迁徙"},
+      {"name": "鹊始巢", "description": "喜鹊开始筑巢"},
+      {"name": "雉始雊", "description": "野鸡开始鸣叫求偶"}
+    ]},
+    {"name": "大寒", "date_typical": "1月20-21日", "description": "一年中最冷的时期", "three_waiting": [
+      {"name": "鸡始乳", "description": "母鸡开始孵小鸡"},
+      {"name": "征鸟厉疾", "description": "鹰隼等猛禽捕食更加凶猛"},
+      {"name": "水泽腹坚", "description": "河湖中心的冰层最厚最坚硬"}
+    ]}
+  ]
+}
