@@ -1,0 +1,102 @@
+{
+  "source": "NBA官方数据综合",
+  "description": "NBA历史排名数据。涵盖历史总得分榜、总冠军数排名、MVP次数排名、历史最佳球员排名等。",
+  "categories": [
+    {
+      "title": "历史总得分榜（常规赛）",
+      "data": [
+        {"rank": 1, "player": "勒布朗·詹姆斯", "points": 40474, "team": "湖人/骑士/热火", "active": true},
+        {"rank": 2, "player": "卡里姆·阿卜杜尔-贾巴尔", "points": 38387, "team": "雄鹿/湖人", "active": false},
+        {"rank": 3, "player": "卡尔·马龙", "points": 36928, "team": "爵士/湖人", "active": false},
+        {"rank": 4, "player": "科比·布莱恩特", "points": 33643, "team": "湖人", "active": false},
+        {"rank": 5, "player": "迈克尔·乔丹", "points": 32292, "team": "公牛/奇才", "active": false},
+        {"rank": 6, "player": "德克·诺维茨基", "points": 31560, "team": "独行侠", "active": false},
+        {"rank": 7, "player": "威尔特·张伯伦", "points": 31419, "team": "勇士/76人/湖人", "active": false},
+        {"rank": 8, "player": "沙奎尔·奥尼尔", "points": 28596, "team": "魔术/湖人/热火/太阳/骑士", "active": false},
+        {"rank": 9, "player": "卡梅隆·安东尼", "points": 28289, "team": "掘金/尼克斯/雷霆/火箭/湖人", "active": false},
+        {"rank": 10, "player": "摩西·马龙", "points": 27409, "team": "火箭/76人/子弹", "active": false},
+        {"rank": 11, "player": "凯文·杜兰特", "points": 26957, "team": "雷霆/勇士/篮网/太阳", "active": true},
+        {"rank": 12, "player": "埃尔文·海耶斯", "points": 27313, "team": "火箭/子弹", "active": false},
+        {"rank": 13, "player": "哈基姆·奥拉朱旺", "points": 26946, "team": "火箭/猛龙", "active": false},
+        {"rank": 14, "player": "奥斯卡·罗伯特森", "points": 26710, "team": "国王/雄鹿", "active": false},
+        {"rank": 15, "player": "多米尼克·威尔金斯", "points": 26668, "team": "老鹰/快船/凯尔特人", "active": false}
+      ]
+    },
+    {
+      "title": "历史总冠军数排名（球队）",
+      "data": [
+        {"rank": 1, "team": "波士顿凯尔特人", "championships": 18, "last_title": "2024"},
+        {"rank": 2, "team": "洛杉矶湖人", "championships": 17, "last_title": "2020"},
+        {"rank": 3, "team": "金州勇士", "championships": 7, "last_title": "2022"},
+        {"rank": 4, "team": "芝加哥公牛", "championships": 6, "last_title": "1998"},
+        {"rank": 5, "team": "圣安东尼奥马刺", "championships": 5, "last_title": "2014"},
+        {"rank": 6, "team": "迈阿密热火", "championships": 3, "last_title": "2013"},
+        {"rank": 7, "team": "底特律活塞", "championships": 3, "last_title": "2004"},
+        {"rank": 8, "team": "费城76人", "championships": 3, "last_title": "1983"},
+        {"rank": 9, "team": "密尔沃基雄鹿", "championships": 2, "last_title": "2021"},
+        {"rank": 10, "team": "丹佛掘金", "championships": 1, "last_title": "2023"},
+        {"rank": 10, "team": "多伦多猛龙", "championships": 1, "last_title": "2019"},
+        {"rank": 10, "team": "克利夫兰骑士", "championships": 1, "last_title": "2016"}
+      ]
+    },
+    {
+      "title": "MVP次数排名",
+      "data": [
+        {"rank": 1, "player": "卡里姆·阿卜杜尔-贾巴尔", "mvps": 6},
+        {"rank": 2, "player": "迈克尔·乔丹", "mvps": 5},
+        {"rank": 2, "player": "比尔·拉塞尔", "mvps": 5},
+        {"rank": 4, "player": "威尔特·张伯伦", "mvps": 4},
+        {"rank": 4, "player": "勒布朗·詹姆斯", "mvps": 4},
+        {"rank": 6, "player": "摩西·马龙", "mvps": 3},
+        {"rank": 6, "player": "拉里·伯德", "mvps": 3},
+        {"rank": 6, "player": "魔术师约翰逊", "mvps": 3},
+        {"rank": 6, "player": "尼古拉·约基奇", "mvps": 3}
+      ]
+    },
+    {
+      "title": "历史三分命中数排名",
+      "data": [
+        {"rank": 1, "player": "斯蒂芬·库里", "threes": 3800, "active": true},
+        {"rank": 2, "player": "雷·阿伦", "threes": 2973, "active": false},
+        {"rank": 3, "player": "詹姆斯·哈登", "threes": 2940, "active": true},
+        {"rank": 4, "player": "雷吉·米勒", "threes": 2560, "active": false},
+        {"rank": 5, "player": "达米安·利拉德", "threes": 2510, "active": true},
+        {"rank": 6, "player": "凯尔·科沃尔", "threes": 2450, "active": false},
+        {"rank": 7, "player": "克莱·汤普森", "threes": 2370, "active": true},
+        {"rank": 8, "player": "保罗·皮尔斯", "threes": 2143, "active": false},
+        {"rank": 9, "player": "杰森·特里", "threes": 2282, "active": false},
+        {"rank": 10, "player": "文斯·卡特", "threes": 2290, "active": false}
+      ]
+    },
+    {
+      "title": "历史篮板榜",
+      "data": [
+        {"rank": 1, "player": "威尔特·张伯伦", "rebounds": 23924},
+        {"rank": 2, "player": "比尔·拉塞尔", "rebounds": 21620},
+        {"rank": 3, "player": "卡里姆·阿卜杜尔-贾巴尔", "rebounds": 17440},
+        {"rank": 4, "player": "埃尔文·海耶斯", "rebounds": 16279},
+        {"rank": 5, "player": "摩西·马龙", "rebounds": 16212},
+        {"rank": 6, "player": "蒂姆·邓肯", "rebounds": 15091},
+        {"rank": 7, "player": "卡尔·马龙", "rebounds": 14968},
+        {"rank": 8, "player": "罗伯特·帕里什", "rebounds": 14715},
+        {"rank": 9, "player": "凯文·加内特", "rebounds": 14662},
+        {"rank": 10, "player": "哈基姆·奥拉朱旺", "rebounds": 13748}
+      ]
+    },
+    {
+      "title": "历史助攻榜",
+      "data": [
+        {"rank": 1, "player": "约翰·斯托克顿", "assists": 15806},
+        {"rank": 2, "player": "杰森·基德", "assists": 12091},
+        {"rank": 3, "player": "克里斯·保罗", "assists": 11700, "active": true},
+        {"rank": 4, "player": "史蒂夫·纳什", "assists": 10335},
+        {"rank": 5, "player": "马克·杰克逊", "assists": 10334},
+        {"rank": 6, "player": "魔术师约翰逊", "assists": 10141},
+        {"rank": 7, "player": "奥斯卡·罗伯特森", "assists": 9887},
+        {"rank": 8, "player": "拉塞尔·威斯布鲁克", "assists": 9500, "active": true},
+        {"rank": 9, "player": "伊塞亚·托马斯", "assists": 9061},
+        {"rank": 10, "player": "加里·佩顿", "assists": 8966}
+      ]
+    }
+  ]
+}
