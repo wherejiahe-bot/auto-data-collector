@@ -25,7 +25,6 @@ jobs:
       - name: 抓取 & 解析
         run: python scripts/scrape.py
         working-directory: ./sources/yt-trending
-        working-directory: ./sources/yt-trending
 
       - name: 提交 & 推送
         run: |
