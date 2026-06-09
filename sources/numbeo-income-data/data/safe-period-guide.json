@@ -1,0 +1,201 @@
+{
+  "source": "医学参考：WHO生殖健康指南、妇产科学",
+  "description": "安全期查询指南，基于月经周期推算排卵期和安全期。提供不同周期长度的安全期/危险期对照表及计算方法。",
+  "updated_at": "2026-05-25",
+  "disclaimer": "安全期避孕法并非100%可靠（失败率约20%）。月经周期不规律者不适用。此数据仅供参考，不构成医疗建议。",
+  "calculation_method": {
+    "title": "安全期计算原理",
+    "principle": "排卵通常发生在下次月经前14天左右。卵子排出后约存活24小时，精子在女性体内约存活3-5天。因此排卵日前5天和后4天（共10天）为易孕期（危险期），其余时间为安全期。",
+    "steps": [
+      "记录最近6-12个月的月经周期长度",
+      "找出最短周期和最长周期",
+      "易孕期开始日 = 最短周期 - 18",
+      "易孕期结束日 = 最长周期 - 11",
+      "易孕期之外的时间为安全期"
+    ],
+    "formula": {
+      "ovulation_day": "周期长度 - 14",
+      "fertile_window_start": "周期长度 - 18",
+      "fertile_window_end": "周期长度 - 11",
+      "safe_period_before": "月经第1天至 fertile_window_start-1",
+      "safe_period_after": "fertile_window_end+1 至下次月经"
+    }
+  },
+  "cycle_lengths": [
+    {
+      "cycle": 21,
+      "ovulation_day": 7,
+      "fertile_window": "第3天至第10天",
+      "safe_before": "第1-2天",
+      "safe_after": "第11-21天",
+      "note": "周期过短，安全期很少"
+    },
+    {
+      "cycle": 22,
+      "ovulation_day": 8,
+      "fertile_window": "第4天至第11天",
+      "safe_before": "第1-3天",
+      "safe_after": "第12-22天",
+      "note": ""
+    },
+    {
+      "cycle": 23,
+      "ovulation_day": 9,
+      "fertile_window": "第5天至第12天",
+      "safe_before": "第1-4天",
+      "safe_after": "第13-23天",
+      "note": ""
+    },
+    {
+      "cycle": 24,
+      "ovulation_day": 10,
+      "fertile_window": "第6天至第13天",
+      "safe_before": "第1-5天",
+      "safe_after": "第14-24天",
+      "note": ""
+    },
+    {
+      "cycle": 25,
+      "ovulation_day": 11,
+      "fertile_window": "第7天至第14天",
+      "safe_before": "第1-6天",
+      "safe_after": "第15-25天",
+      "note": ""
+    },
+    {
+      "cycle": 26,
+      "ovulation_day": 12,
+      "fertile_window": "第8天至第15天",
+      "safe_before": "第1-7天",
+      "safe_after": "第16-26天",
+      "note": ""
+    },
+    {
+      "cycle": 27,
+      "ovulation_day": 13,
+      "fertile_window": "第9天至第16天",
+      "safe_before": "第1-8天",
+      "safe_after": "第17-27天",
+      "note": ""
+    },
+    {
+      "cycle": 28,
+      "ovulation_day": 14,
+      "fertile_window": "第10天至第17天",
+      "safe_before": "第1-9天",
+      "safe_after": "第18-28天",
+      "note": "标准28天周期"
+    },
+    {
+      "cycle": 29,
+      "ovulation_day": 15,
+      "fertile_window": "第11天至第18天",
+      "safe_before": "第1-10天",
+      "safe_after": "第19-29天",
+      "note": ""
+    },
+    {
+      "cycle": 30,
+      "ovulation_day": 16,
+      "fertile_window": "第12天至第19天",
+      "safe_before": "第1-11天",
+      "safe_after": "第20-30天",
+      "note": ""
+    },
+    {
+      "cycle": 31,
+      "ovulation_day": 17,
+      "fertile_window": "第13天至第20天",
+      "safe_before": "第1-12天",
+      "safe_after": "第21-31天",
+      "note": ""
+    },
+    {
+      "cycle": 32,
+      "ovulation_day": 18,
+      "fertile_window": "第14天至第21天",
+      "safe_before": "第1-13天",
+      "safe_after": "第22-32天",
+      "note": ""
+    },
+    {
+      "cycle": 33,
+      "ovulation_day": 19,
+      "fertile_window": "第15天至第22天",
+      "safe_before": "第1-14天",
+      "safe_after": "第23-33天",
+      "note": ""
+    },
+    {
+      "cycle": 34,
+      "ovulation_day": 20,
+      "fertile_window": "第16天至第23天",
+      "safe_before": "第1-15天",
+      "safe_after": "第24-34天",
+      "note": ""
+    },
+    {
+      "cycle": 35,
+      "ovulation_day": 21,
+      "fertile_window": "第17天至第24天",
+      "safe_before": "第1-16天",
+      "safe_after": "第25-35天",
+      "note": ""
+    },
+    {
+      "cycle": 36,
+      "ovulation_day": 22,
+      "fertile_window": "第18天至第25天",
+      "safe_before": "第1-17天",
+      "safe_after": "第26-36天",
+      "note": ""
+    },
+    {
+      "cycle": 37,
+      "ovulation_day": 23,
+      "fertile_window": "第19天至第26天",
+      "safe_before": "第1-18天",
+      "safe_after": "第27-37天",
+      "note": ""
+    },
+    {
+      "cycle": 38,
+      "ovulation_day": 24,
+      "fertile_window": "第20天至第27天",
+      "safe_before": "第1-19天",
+      "safe_after": "第28-38天",
+      "note": ""
+    },
+    {
+      "cycle": 39,
+      "ovulation_day": 25,
+      "fertile_window": "第21天至第28天",
+      "safe_before": "第1-20天",
+      "safe_after": "第29-39天",
+      "note": ""
+    },
+    {
+      "cycle": 40,
+      "ovulation_day": 26,
+      "fertile_window": "第22天至第29天",
+      "safe_before": "第1-21天",
+      "safe_after": "第30-40天",
+      "note": "周期偏长"
+    }
+  ],
+  "other_methods": [
+    {"method": "基础体温法 (BBT)", "description": "每天早晨醒来未活动时测量体温。排卵后体温会升高0.3-0.5°C并维持到下次月经。体温升高后第3天至下次月经为安全期。", "reliability": "中"},
+    {"method": "宫颈粘液观察法", "description": "排卵期宫颈粘液会变得像蛋清一样透明、拉丝。粘液最透明拉丝的日子是排卵日。", "reliability": "中"},
+    {"method": "排卵试纸法", "description": "检测尿液中LH峰值，出现强阳后24-48小时内排卵。排卵后第3天至下次月经为安全期。", "reliability": "较高"}
+  ],
+  "key_points": [
+    "安全期不是绝对安全，失败率约20%，远高于避孕套（2%）和短效避孕药（0.3%）",
+    "月经周期不规律（波动超过7天）者不适用安全期计算",
+    "产后、哺乳期、更年期、压力大、熬夜、旅行等因素会影响排卵时间",
+    "精子在女性体内可存活5天，排卵前5天同房也可能怀孕",
+    "卵子排出后仅存活24小时，排卵后超过24小时同房不会怀孕",
+    "建议安全期+避孕套双重防护更可靠",
+    "手机APP推算的安全期仅供参考，算法可能不准确",
+    "最准确确定排卵的方式是B超监测排卵"
+  ]
+}
