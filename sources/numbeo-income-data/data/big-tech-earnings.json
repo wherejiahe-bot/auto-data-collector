@@ -1,0 +1,55 @@
+{
+  "source": "各公司2025年年报/季报、新华网、雪球等公开财经数据",
+  "description": "大型科技公司（Big Tech）最新财报数据，涵盖中美头部互联网和科技公司2025年营收、净利润、同比增长率等关键财务指标。",
+  "updated_at": "2026-05-25",
+  "categories": [
+    {
+      "name": "中国互联网巨头",
+      "note": "2025财年数据（部分为自然年2025/ FY2025）",
+      "data": [
+        {"company": "腾讯控股", "stock_code": "0700.HK", "revenue_billion_cny": 7518, "revenue_yoy": "14%", "net_profit_billion_cny": 2248, "profit_type": "Non-IFRS归母净利润", "profit_yoy": "21%", "main_business": "游戏/社交/广告/云", "rank_by_profit": 1, "highlights": ["中国互联网利润王", "微信月活13.4亿", "游戏收入占比超30%"]},
+        {"company": "拼多多", "stock_code": "PDD.US", "revenue_billion_cny": 4318, "revenue_yoy": "10%", "net_profit_billion_cny": 994, "profit_type": "归母净利润", "profit_yoy": "18%", "main_business": "电商/Temu跨境", "rank_by_profit": 2, "highlights": ["净利润中国互联网第二", "Temu全球扩张"]},
+        {"company": "阿里巴巴", "stock_code": "BABA.US", "revenue_billion_cny": 10167, "revenue_yoy": "2%", "net_profit_billion_cny": 906, "profit_type": "归母净利润", "profit_yoy": "-12%", "main_business": "电商/云计算/物流/本地生活", "rank_by_profit": 3, "highlights": ["中国互联网营收第一", "万亿俱乐部", "云业务增速放缓"]},
+        {"company": "美团", "stock_code": "3690.HK", "revenue_billion_cny": 3649, "revenue_yoy": "8%", "net_profit_billion_cny": 487, "profit_type": "经调整净利润", "profit_yoy": "25%", "main_business": "外卖/到店/酒旅/优选", "rank_by_profit": 4, "highlights": ["到店业务复苏", "海外扩张Keeta"]},
+        {"company": "京东", "stock_code": "JD.US", "revenue_billion_cny": 13091, "revenue_yoy": "13%", "net_profit_billion_cny": 414, "profit_type": "Non-GAAP归母净利润", "profit_yoy": "35%", "main_business": "电商/物流/健康", "rank_by_profit": 5, "highlights": ["中国互联网营收最高", "利润大幅改善"]},
+        {"company": "网易", "stock_code": "NTES.US", "revenue_billion_cny": 1153, "revenue_yoy": "6%", "net_profit_billion_cny": 350, "profit_type": "Non-GAAP归母净利润", "profit_yoy": "10%", "main_business": "游戏/音乐/教育", "rank_by_profit": 6, "highlights": ["游戏业务稳健", "《蛋仔派对》《逆水寒》"]},
+        {"company": "百度", "stock_code": "BIDU.US", "revenue_billion_cny": 1291, "revenue_yoy": "-3%", "net_profit_billion_cny": 280, "profit_type": "Non-GAAP归母净利润", "profit_yoy": "5%", "main_business": "搜索/AI云/自动驾驶", "rank_by_profit": 7, "highlights": ["文心一言大模型", "萝卜快跑自动驾驶"]},
+        {"company": "快手", "stock_code": "1024.HK", "revenue_billion_cny": 1268, "revenue_yoy": "9%", "net_profit_billion_cny": 145, "profit_type": "经调整净利润", "profit_yoy": "45%", "main_business": "短视频/直播/电商", "rank_by_profit": 8, "highlights": ["首次全年盈利", "电商GMV增长"]},
+        {"company": "小米集团", "stock_code": "1810.HK", "revenue_billion_cny": 3650, "revenue_yoy": "20%", "net_profit_billion_cny": 236, "profit_type": "经调整净利润", "profit_yoy": "30%", "main_business": "手机/IoT/汽车", "rank_by_profit": 9, "highlights": ["SU7电动车交付超预期", "手机高端化突破"]}
+      ]
+    },
+    {
+      "name": "美国科技巨头 (美股七巨头)",
+      "note": "2025自然年/FY2025数据，单位：亿美元",
+      "data": [
+        {"company": "谷歌 (Alphabet)", "stock_code": "GOOGL.US", "revenue_billion_usd": 4028, "revenue_yoy": "14%", "net_profit_billion_usd": 1321, "profit_type": "GAAP净利润", "profit_yoy": "20%", "main_business": "搜索广告/YouTube/云", "rank_by_profit_us": 1, "highlights": ["美科技利润第一", "搜索广告收入稳定", "AI布局Gemini"]},
+        {"company": "微软 (Microsoft)", "stock_code": "MSFT.US", "revenue_billion_usd": 3054, "revenue_yoy": "16%", "net_profit_billion_usd": 1192, "profit_type": "GAAP净利润", "profit_yoy": "18%", "main_business": "云/Azure/Office/Copilot", "rank_by_profit_us": 2, "highlights": ["Azure云增速亮眼", "AI Copilot全面嵌入"]},
+        {"company": "苹果 (Apple)", "stock_code": "AAPL.US", "revenue_billion_usd": 4356, "revenue_yoy": "5%", "net_profit_billion_usd": 1177, "profit_type": "GAAP净利润", "profit_yoy": "8%", "main_business": "iPhone/服务/Mac/可穿戴", "rank_by_profit_us": 3, "highlights": ["营收第一", "服务收入占比持续提升"]},
+        {"company": "英伟达 (NVIDIA)", "stock_code": "NVDA.US", "revenue_billion_usd": 2128, "revenue_yoy": "114%", "net_profit_billion_usd": 1130, "profit_type": "GAAP净利润", "profit_yoy": "145%", "main_business": "AI芯片/数据中心/自动驾驶", "rank_by_profit_us": 4, "highlights": ["增速最快", "AI算力芯片霸主", "Hopper/Blackwell架构"]},
+        {"company": "亚马逊 (Amazon)", "stock_code": "AMZN.US", "revenue_billion_usd": 7169, "revenue_yoy": "11%", "net_profit_billion_usd": 776, "profit_type": "GAAP净利润", "profit_yoy": "60%", "main_business": "电商/AWS云/广告/Prime", "rank_by_profit_us": 5, "highlights": ["营收最高", "AWS贡献主要利润"]},
+        {"company": "Meta", "stock_code": "META.US", "revenue_billion_usd": 2009, "revenue_yoy": "22%", "net_profit_billion_usd": 605, "profit_type": "GAAP净利润", "profit_yoy": "36%", "main_business": "社交/Facebook/Instagram/元宇宙", "rank_by_profit_us": 6, "highlights": ["广告收入强劲", "AI推荐算法优化"]},
+        {"company": "特斯拉 (Tesla)", "stock_code": "TSLA.US", "revenue_billion_usd": 1126, "revenue_yoy": "8%", "net_profit_billion_usd": 158, "profit_type": "GAAP净利润", "profit_yoy": "-15%", "main_business": "电动车/能源/AI/自动驾驶", "rank_by_profit_us": 7, "highlights": ["FSD自动驾驶推进", "人形机器人Optimus"]}
+      ]
+    }
+  ],
+  "industry_overview": {
+    "total_revenue_cn_top10": "约4万亿人民币",
+    "total_profit_cn_top10": "约6000亿人民币",
+    "total_revenue_us_top7": "约2.37万亿美元",
+    "total_profit_us_top7": "约7000亿美元",
+    "key_trends_cn": [
+      "阿里和京东营收破万亿，但增长放缓",
+      "腾讯蝉联利润王，拼多多净利润跃居第二",
+      "快手首次全年盈利，小米汽车业务成新增长点",
+      "AI成为各厂财报关键词，百度、腾讯、阿里AI云业务增长显著",
+      "电商三巨头（阿里/京东/拼多多）竞争格局稳定"
+    ],
+    "key_trends_us": [
+      "美股七巨头合计净利润约7000亿美元，占标普500盈利近1/4",
+      "英伟达增速最猛，营收翻倍，净利润增长145%",
+      "谷歌反超微软成为美科技利润第一",
+      "AI相关支出大幅增加，资本开支同比增长40%+",
+      "云计算业务（AWS/Azure/GCP）仍是主要利润引擎"
+    ]
+  }
+}
